@@ -1,0 +1,154 @@
+body{
+    background-image: url(546896.jpg);
+    background-size: cover;
+    width: 100%;
+}
+#exterieur{
+
+}
+#entete {
+    text-align: center;
+    color: darkgray;
+}
+
+.boite {
+    display: inline-block;
+}
+
+#principal {
+    color: powderblue;
+    padding: 1% 40% 3% 5%;
+    display: block;
+    text-align: left;
+    margin-right: 10%;
+    position: absolute;
+    margin-right: 300px;
+    padding-right: 60px;
+    float: left;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+#navigation {
+    list-style: none;
+    float: right;
+}
+
+.list-group-item.active {
+
+}
+
+.boite {
+    padding: 3% 3% 4% 5%;
+    border-image: url(407108.jpg) 10 10 10 10 stretch;
+    border-width: 20px;
+    opacity : 1 ;
+    border-radius: 30%;
+}
+@keyframes ss{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0.4;
+    }
+}
+
+.boite:hover{
+    opacity : 0.5 ;
+    height: 40%;
+    border-radius: 40%;
+    transition: opacity 1s,border-radius 2s;
+    position: relative;
+    animation: ss .3s infinite alternate;
+
+}
+
+
+
+.navbarzz {
+    float: right;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: bisque;
+}
+.navbarzz li {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 100%;
+    border: 1px solid;
+    background-color: black;
+    color: dimgrey;
+    margin-right: 20%;
+    padding-right: 30px;
+    opacity: 1;
+    text-align: center;
+}
+.navbarzz li a{
+    color: beige;
+}
+li:hover a {
+    color:black;
+    height: 30%;
+    transition: color 6s,height 2s;
+    background-color: dimgrey;
+    border-image:  url(407108.jpg);
+    visibility: visible;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+#bas-de-page {
+    position: absolute;
+    top:160%;
+    color: aliceblue;
+
+}
+#bas-de-page p span{
+    float: left;
+}
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#contact a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.toggled {
+    display: block;
+}
+
+iframe {
+    display:none;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 470px;
+    border: none;
+}
+
+iframe {
+    
+}
+
+

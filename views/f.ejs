@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf8">
+    <title>Bouteghmas ILyes G10 N14</title>
+    <link rel="stylesheet" href="les_donnes/MISE EN PAGE.css" type="text/css">
+    <link rel="stylesheet" href="les_donnes/bootstrap-theme.css">
+    <link rel="stylesheet" href="les_donnes/bootstrap.css">
+    <script>
+        alert(" **Welcom** ;)");
+        //var age=prompt("what's your age ?");
+        //if (age >= 18) {
+        //    alert("welcom again ;)");
+        //} else {
+        //    while (age < 18) {
+        //        alert("plz go away ");
+        //        age = prompt("what's your age ?");
+        //    }
+        //}
+    </script>-->
+</head>
+<body>
+
+<div id="exterieur">
+
+    <header id="entete" style="animation: ss 2s infinite alternate;"><h1>Developement Applications Web</h1></header>
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="MISE%20EN%20PAGE.HTML" class="navbar-brand">DAW</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a role="button" id="int" >introdution</a></li>
+                        <li><a role="button" id="html" target="iframm">HTML5</a></li>
+                        <li><a role="button" id="css">CSS3</a></li>
+                        <li><a role="button" id="php">PHP</a></li>
+                        <li><a role="button" id="js">JAVA SCRIPT</a></li>
+                        <li class="dropdown" id="quiz">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">quiz <span class="caret"></span></a>
+          <ul class="dropdown-menu" class="nav navbar-nav"  >
+            <li><a href="les_donnes/quizehtm.html" target="iframm" class="ipp1">html quiz</a></li>
+            <li><a href="les_donnes/quizecss.html" target="iframm" class="ipp2">css quiz</a></li>
+            <li><a href="les_donnes/quizejs.html" target="iframm" class="ipp3">js quiz</a></li>
+            <li><a href="les_donnes/index.html" target="_blank">drow</a></li>
+          </ul>
+        </li
+                    </ul>
+                </div>
+                </div>
+        </nav>
+        </div>
+    </div>
+
+<div class="container">
+    <iframe id="iframmm" name="iframm"  height="385" width="500 " ></iframe>
+</div>
+    <div class="container">
+        <div id="illustrations" class="row" >
+
+            <div class="col-lg-3">
+                <div class="boite" >
+                    <div class="thumbnail">
+                        <a>
+                            <img width="200" height="150"  alt="photo" src="les_donnes/CSS3.PNG"><h6>souris gouch zoom_in droit zoom_out</h6>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="boite">
+                    <div class="thumbnail">
+                        <a >
+                            
+                            <img width="200" height="150"  alt="photo" src="les_donnes/JS.PNG"><h6 id="rian">click pour animation</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="boite">
+                    <div class="thumbnail">
+                        <a >
+                            <img alt="photo" width="200" height="150" src="les_donnes/PHP.jpg" style="height: 202px;width: 215px;"><h6>click pour rian</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="boite" >
+                    <div class="thumbnail">
+                        <a >
+                            <img width="200" height="150" alt="photo" src="les_donnes/HTML5.PNG"><h6 >click pour zoom</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var imag=document.querySelectorAll("img");
+        var riann=document.querySelector("#rian");
+        imag[0].addEventListener("click",function(){
+          imag[0].width-=20;imag[0].height-=20;  
+        });
+        imag[0].addEventListener("mouseup",function(){
+          imag[0].width+=10;imag[0].height+=10;
+            
+        });
+        
+        imag[1].addEventListener("click",function(){
+            setInterval(function(){imag[1].width-=15;imag[1].height-=15;},100)
+            riann.textContent="";
+        });
+        imag[2].addEventListener("click",function(){
+            setInterval(function(){imag[2].width-=5;},100)
+        });
+        
+        imag[3].addEventListener("click",function(){
+            setInterval(function(){imag[3].width+=5;imag[3].height+=5;},100)
+        });
+                                
+    </script>
+    <div id="milieu" class="container">
+        
+        <main id="principal" class="jumbotron">
+            <h1></h1>
+            <p>  this web page give you a hint on the difernt languge exist in the web world so take your time and use the navigution bar to show the differnt definiton :</br>
+                <div class="dropdown" id="ggg"> 
+            <p><a class="btn btn-primary btn-lg" role="button" target="_top">learn more</a></p>
+            <div class="dropdown-content">
+
+              
+                <p id="change">
+                    Un <strong>site Web statique </strong>se compose essentiellement de fichiers sources HTML (pour le contenu des pages) et CSS
+                    (pour la mise en forme). Il peut également intégrer d’autres types de ressources comme par exemple des données multimédia.
+
+                    Lorsqu’un client envoie une requête au serveur Web hébergeant un site statique,
+                    le serveur se contente de la renvoyer la ressource demandée. Les pages HTML affichées ne peuvent pas
+                    évoluer automatiquement, d’où le terme "statique".<br>
+
+                    A l’inverse d’un site statique, un <strong>site dynamique </strong>est un type de site Web dans lequel le contenu des pages peut évoluer automatiquement.
+
+                    Lorsqu’un client envoie une requête au serveur Web hébergeant un site dynamique, le serveur prépare la page HTML
+                    correspondant à cette requête, puis la renvoie au client pour affichage. Les pages Web affichées au visiteur
+                    ne sont pas codées au préalable comme dans le cas d’un site statique, mais générées au moment de leur consultation.
+                </p>
+                </p>
+            </div>
+    </div>
+
+
+    </main>       
+
+
+</div>
+
+
+<script type="text/javascript" src="les_donnes/jquery.min.js"></script>
+<script type="text/javascript" src="les_donnes/dee.js"></script>
+<script type="text/javascript" src="les_donnes/bootstrap.js"></script>
+</body>
+<footer id="bas-de-page" class="modal-footer">
+    <p>
+        <span id="contact">Contact: <a href="https://www.facebool.com/ilyes.MAxX" target="_blank" ><strong>contact us</strong></a></span>
+
+    </p>
+</footer>
+
+ 
+</HTML>

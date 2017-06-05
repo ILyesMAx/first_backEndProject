@@ -1,0 +1,14 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "im.js "
+  },
+  "author": "ilyes-max_g10",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6"
+  }
+}
